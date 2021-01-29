@@ -4,14 +4,16 @@
 ### *Gloria Givondo* (19/01/2021)
 
 ## Description
+* This is a single-page bootstrap design
+
 ## User Stories
 * The user is able to navigate between sections
 
 ### Cloning the Repo
 * On your terminal run:
 
-        $ git clone
-        $ cd design-bootstrap
+        $ git clone https://github.com/GeGe-K/roots.git
+        $ cd roots
 
 ## Technologies Used 
 * Bootstrap4
