@@ -1,0 +1,215 @@
+/* html */
+html{
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+/* Navbar */
+#brand-name{
+    max-width: 2.6em;
+}
+
+
+.nav-link {
+    border-bottom: 5px solid transparent;
+
+    font-weight: bolder;
+  }
+
+  
+.nav-link:hover {
+    color: rgba(39, 15, 15, 0.5);
+    border-bottom: 5px solid #64a19d;
+  }
+
+.active{
+    border-bottom: 5px solid #64a19d;
+    
+}
+
+/* Landing section */
+.landing {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url('images/bg-home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.landing h1 {
+    font-family: 'Merienda One', cursive;
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: 0.8rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+}
+.landing h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+}
+@media (min-width: 768px) {
+    .landing h1 {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+}
+@media (min-width: 992px) {
+    .landing {
+      height: 100vh;
+      padding: 0;
+    }
+    .landing h1 {
+      font-size: 6.5rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+    .landing h2 {
+      max-width: 30rem;
+      font-size: 1.25rem;
+    }
+}
+
+/* About us */
+.about-section {
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.about-section h2{
+    font-family: 'Merienda One', cursive;
+
+}
+.about-section p {
+    margin-bottom: 8rem;
+}
+
+/* PRojects */
+.projects-section {
+    padding: 10rem 0;
+}
+.projects-section .lable h2{
+    font-family: 'Merienda One', cursive;
+}
+.projects-section .featured-text {
+    padding: 2rem;
+}
+@media (min-width: 992px) {
+    .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+    }
+}
+.project{
+    background-color: #000000;
+}
+.projects-section .project-text {
+    padding: 3rem;
+    font-size: 91%;
+}
+@media (min-width: 992px) {
+    .projects-section .project-text {
+    padding: 5rem;
+    }
+}
+.projects-section .project-text hr {
+    border-color: #64a19d;
+    border-width: 0.3rem;
+    width: 30%;
+}
+
+/* Signup */
+.signup-section {
+    padding: 10rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url('images/bg-signup.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.signup-section .form-inline input {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 2% 3%;
+    height: auto;
+    font-family: 'Merienda One', cursive;
+    font-size: 100%;
+    text-transform: capitalize;
+    border: 0;
+}
+
+/* Contacts and social handles  */
+.contacts-section {
+    padding-top: 6%;
+    background-color: #000000;
+}
+.contacts-section .call h2{
+    font-family:'Merienda One', cursive;
+    font-size: 250%;
+    color: #fff;
+}
+.contacts-section .card {
+    border-bottom: 5px solid #64a19d;
+}
+.contacts-section .card h4 {
+    font-size: 80%;
+    font-family: 'Merienda One', cursive;
+    text-transform: uppercase;
+}
+.contacts-section .card hr {
+    border-color: #64a19d;
+    border-width: 500%;
+    width: 15%;
+}
+.contacts-section .getus{
+    font-size: small;
+}
+.contacts-section .chat h2{
+    font-family:'Merienda One', cursive;
+    font-size: 250%;
+    color: #fff;
+}
+.contacts-section .social {
+    margin-top: 2%;
+}
+.contacts-section .social a {
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+.contacts-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+.contacts-section .social a:active {
+    color: #fff;
+}
+
+/* Footer */
+.footer-rights {
+    background-color: #000000;
+    font-size: smaller;
+    padding-bottom: 3em;
+}
+
+/* Back to top button */
+#gotoTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
+    border-radius: 1em;
+}
+#gotoTop:hover {
+    background-color: #555;
+}
+
